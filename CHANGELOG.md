@@ -110,7 +110,7 @@ and pin a version when stability matters.
 
 ### Project
 
-- Renamed the project to **`yugioh-assistant-mcp`** (npm package, GitHub repository, MCP registry name and skill). The CLI command is still **`ygo`**; both `npx -y yugioh-assistant-mcp ...` and `ygo ...` work. The Glama listing keeps its original slug until the re-index follows the rename.
+- Renamed the project to **`yugioh-assistant-mcp`** (npm package, GitHub repository, MCP registry name and skill). The CLI command is still **`ygo`**; both `npx -y yugioh-assistant-mcp ...` and `ygo ...` work.
 - Credited the related open-source projects consulted during development (other Yu-Gi-Oh! MCP servers, deck builders, price trackers, ruling tools and MCP infrastructure); only listed dependencies and data sources ship.
 - The Konami deck-list form is **no longer bundled**: `ygo fetch-data` downloads it from Konami on demand (or `YGO_KDE_TEMPLATE` points at a local copy). The npm tarball dropped from ~535 kB to ~390 kB.
 - The ProjectIgnis procedure libraries are downloaded by `fetch-data` instead of being committed; the archetype studio copies them from `data/ocgcore-scripts/`.
@@ -119,7 +119,7 @@ and pin a version when stability matters.
 - README, LEGAL, TECHNICAL and the agent skill now state explicitly that **AI answers are not guaranteed to be correct**; every ruling, price and suggestion is a lead to verify, not an authority.
 - Removed generated and duplicate files (a committed Python bytecode cache, an English duplicate of the tool catalogue, and maintainer-only pages); `SECURITY.md` now links to the correct CREDITS file. The npm tarball ships only runtime and user-facing files: 123 files, ~370 kB.
 - `Dockerfile` (multi-stage, `node:24-bookworm-slim`) and `.dockerignore` for container checks; the server starts over stdio and answers introspection without external data.
-- Listed on Glama: <https://glama.ai/mcp/servers/SPdream99/yugioh-assistant> (score badge in the README and in the awesome-mcp-servers entry).
+- Listed on Glama: <https://glama.ai/mcp/servers/SPdream99/yugioh-assistant-mcp> (score badge in the README and in the awesome-mcp-servers entry). Ownership is claimed through `glama.json`.
 - `SECURITY.md` with a private reporting flow and scope.
 - `NOTICE`: what is excluded from the AGPL, plus an explicit commitment to remove the repository and npm package on a rights-holder request.
 - Test fixtures documented in `test/fixtures/README.md`; usernames, Discord ids and

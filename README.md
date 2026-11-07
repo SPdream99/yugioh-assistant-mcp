@@ -7,7 +7,7 @@
 [![MCP](https://img.shields.io/badge/Model_Context_Protocol-stdio-blue)](https://modelcontextprotocol.io)
 [![npm](https://img.shields.io/npm/v/yugioh-assistant-mcp)](https://www.npmjs.com/package/yugioh-assistant-mcp)
 [![status](https://img.shields.io/badge/status-beta-orange)](CHANGELOG.md)
-[![Glama](https://glama.ai/mcp/servers/SPdream99/yugioh-assistant/badges/score.svg)](https://glama.ai/mcp/servers/SPdream99/yugioh-assistant)
+[![Glama](https://glama.ai/mcp/servers/SPdream99/yugioh-assistant-mcp/badges/score.svg)](https://glama.ai/mcp/servers/SPdream99/yugioh-assistant-mcp)
 [![Node](https://img.shields.io/badge/node-%E2%89%A5_24-339933)](package.json)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)](tsconfig.json)
 [![License](https://img.shields.io/badge/license-AGPL--3.0--only-blue)](LICENSE)
